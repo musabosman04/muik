@@ -1,0 +1,251 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: #FAFAFA; */
+  font: 12pt "Tahoma";
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.page {
+  width: 21cm;
+  min-height: 29.7cm;
+  padding: 2cm;
+  margin: 1cm auto;
+  /* border: 1px #D3D3D3 solid; */
+  border-radius: 5px;
+  /* background: white; */
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+}
+
+.subpage {
+  border: 20px solid #728886;
+  height: 256mm;
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  .page {
+    margin: 0;
+    border: initial;
+    border-radius: initial;
+    width: initial;
+    min-height: initial;
+    box-shadow: initial;
+    /* background: initial; */
+    page-break-after: always;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.row{
+	width: 100%;
+	overflow: hidden;
+}
+.header_left{
+	width: 2cm;
+	height: auto;
+	float: left;
+}
+
+
+.logo img{
+	width: 100%;
+	height: auto;
+	margin-top: 6px;
+}
+
+.header_right{
+	width: 12cm;
+	height: auto;
+	float: left;
+
+	text-align: center;
+}
+.border{
+	width: 100%;
+	height: auto;
+	border-bottom: 2px solid #527E8B;
+    overflow: hidden;
+}
+
+.date{
+	width: 100%;
+	margin-top: 33px;
+	overflow: hidden;
+    margin-left: 20px;
+}
+.date_left{
+	width: 4cm;
+	height: auto;
+	float: left; 
+}
+.date_right{
+	width: 4cm;
+	height: auto;
+	float: right; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.apply{
+	width: 80%;
+	height: auto;
+text-align: center;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.apply h3{
+	    
+ 
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 7px;
+    color: #fff;
+    background: #185389;
+    width: 169px;
+}
+.form{
+	margin: 30px 20px 0 20px;
+}
+
+.form p{
+	    margin-bottom: 6px;
+}
+
+.two_inline1{
+	width: 15cm;
+	height: auto;
+	overflow: hidden;
+}
+.two_inline1_left{
+	width: 7.5cm;
+	height: auto;
+	float: left; 
+}
+
+.two_inline1_right{
+	width: 7.5cm;
+	height: auto;
+	float: right; 
+}
+
+
+
+.two_inline2{
+	width: 15cm;
+	height: auto;
+	overflow: hidden;
+}
+.two_inline2_left{
+	width: 9.5cm;
+	height: auto;
+	float: left; 
+}
+
+.two_inline2_right{
+	width: 5.5cm;
+	height: auto;
+	float: right; 
+}
+
+
+
+
+
+.two_inline3{
+	width: 15cm;
+	height: auto;
+	overflow: hidden;
+}
+.two_inline3_left{
+	width: 7.5cm;
+	height: auto;
+	float: left; 
+}
+
+.two_inline3_right{
+	width: 7.5cm;
+	height: auto;
+	float: right; 
+}
+
+.two_inline4{
+	width: 15cm;
+	height: auto;
+	overflow: hidden;
+}
+.two_inline4_left{
+	width: 6cm;
+	height: auto;
+	float: left; 
+}
+
+.two_inline4_right{
+	width: 9cm;
+	height: auto;
+	float: right; 
+}
+
+
+
+
+
+
+/* form_footer */
+
+
+.form_footer{
+	width:15cm;
+	height: auto;
+text-align: center;
+    overflow: hidden;
+}
+.form_footer_left{
+	width: 7cm;
+	height: auto;
+	float: left; 
+	padding-top:10px;
+}
+
+.form_footer_right{
+	width: 7cm;
+	height: auto;
+	float: right; 
+	padding-top: 10px;
+}

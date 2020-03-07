@@ -1,0 +1,43 @@
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+    margin:10,
+    loop: true,
+    autoplay:true,
+    autoplayHoverPause:true,
+    autoplayTimeout:2000,
+    responsiveClass:true,
+    responsive:{
+      0:{
+        items:1
+      },
+      680:{
+        items:2
+      },
+      960:{
+        items:4
+      }
+    }
+  });
+});
+
+  $(".testimonial-carousel").owlCarousel({
+    margin:10,
+    loop: true,
+    autoplay:true,
+    autoplayHoverPause:true,
+    autoplayTimeout:2000,
+    responsiveClass:true,
+    responsive:{
+      0:{
+        items:1
+      },
+      680:{
+        items:2
+      },
+      960:{
+        items:3
+      }
+    }
+  });
+//datepicker
+$('.datepicker').datepicker()

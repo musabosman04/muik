@@ -1,0 +1,328 @@
+/*
+  Support: musabosman3104@gmail.com
+*/
+*{margin: 0;padding: 0;}
+.container{
+    width: 2400px;
+}
+.slider-aria{
+    margin-top: 82px;
+}
+/*start news section*/
+.news-wrapper h5{
+    background: #f7a51b;
+    color: #fff;
+    float: left;
+    padding: 15px 20px;
+}
+.news-wrapper {
+    width: 100%;
+    padding-left: 10%;
+    background-color: #eee;
+    font-size: 16px;
+    overflow: hidden;
+}
+.news ul{
+    white-space: nowrap;
+    margin-bottom: 0;
+}
+.news ul li{
+    display: inline-block;
+    color: #333;
+    width: 100%;
+    padding: 15px 0px 10px 0px;
+}
+.news ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border-top: 1px solid #f7a51b;
+    border-bottom: 1px solid #f7a51b;
+}
+/*end news section*/
+.title h2{
+    text-align: center;
+}
+.leadership-wrapper{
+    background: #eee;
+}
+/*start notices-wrapper section*/
+.notices-wrapper{
+    padding: 50px 0;
+}
+.notices-wrapper .notices{
+    margin: 50px 20px;
+}
+.notices-wrapper .notices a h5{
+    color: #666666;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+/*end notices-wrapper section*/
+/*start class-wrapper section*/
+.cls-wrapper {
+    background: #222;
+    padding: 50px 0;
+}
+.cls-wrapper .cls{
+    margin-top: 50px;
+}
+/*end class-wrapper section*/
+/*start events-wrapper section*/
+.events-wrapper{
+    background: #222;
+    padding: 50px 0;
+    
+}
+.events-wrapper .events{
+    margin: 50px 15px;
+    
+}
+/*end events-wrapper section*/
+/*start blog-wrapper section*/
+.blog-wrapper{
+    background: #eee;
+    padding: 50px 0;
+    
+}
+.blog-wrapper .main-blog{
+    margin-top: 50px;
+    
+}
+.blog-wrapper .side-blog{
+    margin-top: 50px; 
+    border: 1px solid #ffc107 ;
+    border-right: none;
+}
+.blog-wrapper .side-blog img{
+    float: left;
+    margin-right: 20px;
+}
+.blog-wrapper .side-blog blog-content{
+    float: right;
+}
+.blog-wrapper .side-blog blog-content p{
+    font-weight: 700;
+}
+/*end blog-wrapper section*/
+/*start testi-wrapper section*/
+.testimonial-section{
+    background: #222;
+    padding: 50px 0;
+}
+
+.inner-width{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.testimonial{
+    background: #f1f1f1;
+    padding: 40px;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.test-info{
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+.test-pic{
+    width: 84px !important;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 4px solid #f7a51b5e;
+}
+
+.test-name{
+    font-size: 12px;
+    color: #333;
+}
+
+.test-name span{
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color:#7b7564;
+}
+
+.testimonial p{
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+/*end testi-wrapper section*/
+/*start subscription-wrapper section*/
+.subscription-wrapper{
+    background: #eee;
+    padding: 50px 0;
+}
+.email-box{
+  height: 40px;
+  justify-content: center;
+  display: flex; /*its better to use inline-flex*/
+}
+.email-box i{
+    background: #ffc107;
+    width: 40px;
+    line-height: 40px;
+    padding-left: 11px;
+}
+.tbox,.sub-btn{
+  border: none;
+  outline: none;
+}
+.tbox{
+  width: 0px;
+  transition: 0.6s;
+}
+.email-box:hover > .tbox,.tbox:focus{
+  width: 260px;
+  padding: 0 10px;
+}
+.sub-btn{
+  background: #ffc107;
+  color: white;
+  padding: 0 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/*end subscription-wrapper section*/
+/*start footer-wrapper section*/
+.footer-wrapper{
+    background: #222;
+    padding: 50px 0;
+}
+.footer-wrapper img{
+    width: 100%;
+}
+.footer-wrapper .footer-menu a{
+    border-bottom: 1px solid #ffc107;
+}
+.copyright-wrapper{    
+    padding-top: 10px;
+    background: #ddd;
+}
+/*end footer-wrapper section*/
+/*start about-wrapper section*/
+.about-wrapper{
+    margin-top: 82px;
+    margin-bottom: 40px;
+}
+.about-wrapper h2{
+    margin: 40px 0 20px 0;
+}
+/*end about-wrapper section*/
+/*start rules-wrapper section*/
+.rules-wrapper{
+    margin-top: 85px;
+    margin-bottom: 40px;
+}
+.rules-wrapper .rules{
+    margin-top: 40px;
+}
+.rules-wrapper .Guardian{
+    margin-top: 50px;
+}
+.rules-wrapper .Guardian li{
+    margin-left: 10px;
+    list-style: square;
+}
+.rules-wrapper .food{
+    margin-top: 50px;
+}
+/*end rules-wrapper section*/
+/*start admission-wrapper section*/
+.admission-wrapper{
+    margin-top: 85px;
+    margin-bottom: 40px;
+}
+.admission-wrapper .admission{
+   margin-top: 50px;
+}
+.admission-wrapper .admission h2{
+   margin-bottom: 30px;
+}
+/*end admission-wrapper section*/
+/*start contact-wrapper section*/
+.contact-wrapper{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.contact-wrapper h2{
+    text-align: center;
+}
+/*end contact-wrapper section*/
+/*start glog-slider-wrapper section*/
+.glog-slider-wrapper{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    
+}
+/*end glog-slider-wrapper section*/
+.post-wrapper{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    
+}
+/*end post-wrapper section*/
+/*start gallery-wrapper section*/
+.gallery-wrapper{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    
+}
+.gallery-wrapper .gallery{
+    margin: 10px 50px;
+}
+.gallery-wrapper .gallery img{
+    transition: 1s;
+    padding: 15px;
+    width: 200px
+}
+.gallery-wrapper .gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+/*end gallery-wrapper section*/
+/*start main-notices-wrapper section*/
+.main-notices-wrapper{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+/*end main-notices-wrapper section*/
+/*start admission-form-wrapper section*/
+.admission-form-wrapper{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+/*end admission-form-wrapper section*/
+/*start events-page-wrapper section*/
+.events-page-wrapper{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+/*end events-page-wrapper section*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

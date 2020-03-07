@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+
+
+
+<link rel="stylesheet" href="style.css">
+
+
+<style>
+    
+    @media print {
+    
+    .printbtn{
+        display:none;
+    } .token_show{
+        display:none;
+    }
+}
+    
+    
+    
+</style>
+
+
+
+
+
+
+</head>
+<body>
+
+
+
+
+<div class="book">
+<div class="page">
+
+<header class="header subpage">
+  
+
+
+  <div class="header_top ">
+        <img style="width: 100%;" src="img/top-header.jpg" alt="">
+        <div style="width:20%; height:auto; float:right; margin-right: 10px;">
+            <img style="width: 112px; height: auto; float: right; margin-top: -90px; position: absolute; border-radius: 5px;" src="img/SkCkQw2.JPG">
+        </div>
+  </div>
+
+<div class="border"></div>
+
+
+<div class="apply" style="height:auto; float:left; width:100%;height:auto; overflow:hidden;">
+  <h3 style="margin-bottom: 10px;">ভর্তি ফরম</h3>
+  <input type="radio">আবাসিক
+  <input type="radio">অনাবাসিক
+</div>
+
+<div class="date">
+
+  <div class="date_left">
+    <p>ফরম নং- : <?php echo $token;?></p>
+    <p> ভর্তি নং- : <?php echo $token;?></p>
+  </div>
+  <div class="date_right">
+    <p>তাং : <?php echo $date;?></p>
+  </div>
+
+</div>
+<br>
+<div class="message" style="position: relative; margin: 0 20px 0 20px;">
+<p>মুহতারাম,</p>
+<b><p style="color:brown">পরিচালক,মাদরাসা উমর ইবনুল খাত্তাব রা.</p></b>
+<p>আমি ইলম অম্বষণ ও নিজ প্রতিভা বিকাশের মাধ্যমে আল্লাহর সন্তষ্টি অর্জনের লক্ষ্যে আপনার প্রতিষ্ঠানের সকল নিয়ম-কানুন মেনে চলার অঙ্গীকারে আবদ্ধ হয়ে ভর্তি হওআর আবেদন করছি । <br>অতএব, মহোদয় সমীপে প্রার্থনা, আমাকে ভর্তি হওআর সুযোগ দানে বাধিত করবেন।</p>
+</div>
+
+<div class="form">
+  
+  
+  
+  
+ <table class="table">
+
+
+<tr>
+    <td>নাম</td>
+    <td>:</td>
+    <td><?php echo $name; ?></td>
+</tr>
+
+<tr>
+    <td>পিতা</td>
+    <td>:</td>
+    <td><?php echo $fname; ?></td>
+</tr>
+<tr>
+    <td>মাতা</td>
+    <td>:</td>
+    <td><?php echo $mname; ?></td>
+</tr>
+
+<tr>
+    <td>জন্মতারিখ</td>
+    <td>:</td>
+    <td><?php echo $village; ?></td>
+</tr>
+
+<tr>
+    <td>জন্মনিবন্ধন নং</td>
+    <td>:</td>
+    <td><?php echo $poffice; ?></td>
+</tr>
+<tr>
+    <td>পূর্বের প্রতিষ্ঠান</td>
+    <td>:</td>
+   <td><?php echo $Upazilla; ?></td>
+</tr>
+<tr>
+    <td>যে বিভাগে ভর্তি হতে ইচ্ছুক</td>
+    <td>:</td>
+    <td><?php echo $District; ?></td>
+</tr>
+</table> 
+<b><p style="color: brown; text-align: center">বর্তমান ঠিকানা</p></b>
+<table class="table">
+<tr>
+    <td>গ্রাম</td>
+    <td>:</td>
+   <td><?php echo $birthdate; ?></td>
+</tr>
+
+<tr>
+    <td>ডাকঘর</td>
+    <td>:</td>
+    <td><?php echo $Religion; ?></td>
+</tr>
+<tr>
+    <td>উপজেলা</td>
+    <td>:</td>
+    <td><?php echo $blood; ?></td>
+</tr>
+
+<tr>
+    <td>জেলা</td>
+    <td>:</td>
+    <td><?php echo $Nationality; ?></td>
+</tr>
+</table> 
+<b><p style="color: brown; text-align: center">বর্তমান ঠিকানা</p></b>
+<table class="table">
+
+<tr>
+    <td>গ্রাম</td>
+    <td>:</td>
+   <td><?php echo $birthdate; ?></td>
+</tr>
+
+<tr>
+    <td>ডাকঘর</td>
+    <td>:</td>
+    <td><?php echo $Religion; ?></td>
+</tr>
+<tr>
+    <td>উপজেলা</td>
+    <td>:</td>
+    <td><?php echo $blood; ?></td>
+</tr>
+
+<tr>
+    <td>জেলা</td>
+    <td>:</td>
+    <td><?php echo $Nationality; ?></td>
+</tr>
+</table>
+
+
+
+  
+
+
+<div class="form_footer">
+  
+  <div class="form_footer_left">
+
+    <img style="width:180px;" src="img/PRINCIAPL.JPG" alt="">
+    <p>.....................................</p>
+    <p>অভিভাবকের স্বাক্ষর</p>
+    
+  </div>
+
+  <div class="form_footer_right">
+    
+    <img style="width:180px;height:46px" src="img/PRINCIAPL4.JPG">
+<p>.....................................</p>
+    <p>শিক্ষার্থীর স্বাক্ষর</p>
+  </div>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+<center class="printbtn"><button onclick="myFunction()" style="margin-top:50px; width:150px;padding:10px; color:#fff;background:green;font-size:18px;">Print</button></center>
+
+
+
+   
+</header>
+
+
+
+
+</div>
+</div>
+
+
+<script>
+function myFunction() {
+  window.print();
+}
+</script>
+
+
+
+  
+</body>
+</html>
